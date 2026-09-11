@@ -15,18 +15,6 @@ aws configure   # or set AWS env vars — needs s3:PutObject on the target bucke
 Set your bucket in `marathi_scraper/settings.py` (`S3_BUCKET`) or export
 `SCRAPY_S3_BUCKET`-style overrides as needed.
 
-## Adding a source
-
-Edit `config/sources.yaml` — no code changes required:
-
-```yaml
-- name: your_source_name
-  type: sitemap          # or "listing"
-  start_urls:
-    - https://site.com/sitemap.xml
-  url_pattern: "अर्थ|/business/"
-  enabled: true
-```
 
 ## Run
 
