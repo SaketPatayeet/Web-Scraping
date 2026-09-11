@@ -1,0 +1,4 @@
+scrapy>=2.11
+trafilatura>=1.8
+boto3>=1.34
+pyyaml>=6.0
